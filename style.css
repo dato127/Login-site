@@ -1,0 +1,101 @@
+body {
+   background-color: #2148C0;
+   overflow: hidden;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+/*background image for right side*/
+.backgroundimageright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 864px;
+    height: 721px;
+}
+/*background image for left side*/
+
+.backgroundimageleft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*container flex*/
+.containerflex {
+    display: flex;
+    justify-content: center;
+    margin-top: 161px;
+}
+/* div container*/
+.container {
+    position: relative;
+    width: 300px;
+    height: 398px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*container img shoping icon*/
+.containerimg {
+    width: 119.386px;
+    height: 97.851px;
+}
+/*container input text element*/
+.containerinputtext {
+    margin-top: 71px;
+    margin-bottom: 20px;
+}
+/*container input text elemenet and password element*/
+.containerinputtext, .containerinputpassword {
+    width: 300px;
+    height: 45px;
+    border-color: #FFF;
+    border-radius: 4px;
+    background: transparent;
+    box-sizing: border-box;
+    padding-left: 51px;
+    outline: none;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px; 
+    text-transform: uppercase;
+}
+/*container input submit Login element*/
+.containerinputsubmit {
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #FFF;
+    color: #2148C0;
+    margin-top: 43px;
+    border: none;
+    font-family: "montserrat";
+}
+/*div container a-tag forgot password*/
+.containerforgotpassword {
+    color: #FFF;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 156px;
+    margin-top: 11px;
+    text-decoration: none;
+    border: none;
+}
+/*input text img user icon*/
+.inputimguser {
+    position: absolute; 
+    margin-right: 264px;
+    margin-bottom: 15px;
+}
+/*input password img lock icon*/
+.inputimgpassword {
+    position: absolute;
+    margin-top: 115px;
+    margin-right: 264px;
+}
+
